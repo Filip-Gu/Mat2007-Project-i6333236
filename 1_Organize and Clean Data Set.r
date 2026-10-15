@@ -7,6 +7,8 @@ library(jsonlite)
 # 1. GET THE COLUMNS WE NEED
 # ============================================================
 
+rides <- read_parquet_duckdb("rides.parquet")
+
 # Take the necessary columns from the Parquet dataset
 # and bring them into R.
 
